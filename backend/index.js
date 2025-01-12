@@ -43,7 +43,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(express.json());
 
 app.use(cors({
-    origin: "https://story-api-pgo4.onrender.com", // Correct URL for your frontend
+    origin: "https://story-app-pi.vercel.app", // Correct URL for your frontend
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"], // Allow all common HTTP methods
     credentials: true // Allow credentials (cookies, authorization headers, etc.)
 }));
